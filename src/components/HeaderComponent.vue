@@ -5,7 +5,7 @@
 <template>
     <header>
         <router-link to="/" class="title">
-            <h1>Deutsch's Movies</h1>
+            <h1>Iporac Filmes</h1>
         </router-link>
         <div class="links">
             <router-link to="/filmes">Filmes</router-link>
@@ -17,7 +17,10 @@
 <style scoped>
 
 header {
+    margin-top: -10px;
+    margin-left: -10px;
     height: 50px;
+    width: 100%;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -26,7 +29,7 @@ header {
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: rgba(19, 19, 19, 0.247);
+    background-color: rgb(0, 0, 0);
     z-index: 3;
 }
 

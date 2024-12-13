@@ -1,7 +1,7 @@
 <script setup>
 
 import HeaderComponent from '../components/HeaderComponent.vue';
-import SliderComponent from '../components/SliderComponent.vue';
+import CarrosselDois from '@/components/CarrosselDois.vue'
 import FileiraComponent from '../components/FileiraComponent.vue';
 import { useMovieStore } from '../stores/movieData';
 import { onMounted, ref } from 'vue';
@@ -20,14 +20,14 @@ onMounted(async () => {
 
 <template>
         <header-component />
-        <slider-component v-if="!isLoading"/>
+        <carrossel-dois v-if="!isLoading"/>
         <fileira-component v-if="!isLoading" />
         <loading v-model:active="isLoading"/>
 </template>
 
 <style scoped>
 h1 {
-        color: rgb(209, 45, 45);
+        color: rgb(0, 4, 255);
         text-align: center;
 }
 </style>

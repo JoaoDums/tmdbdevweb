@@ -25,7 +25,7 @@ const lancamento = movieStore.lancamentoAtual
 <style scoped>
 
 main {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 h1 {

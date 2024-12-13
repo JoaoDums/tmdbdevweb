@@ -85,7 +85,7 @@ onMounted(async () => {
 
 
 .genre-item {
-    background-color: rgb(201, 42, 42);
+    background-color: rgb(0, 26, 255);
     border-radius: 1rem;
     padding: 0.5rem 1rem;
     color: #ffffff;
@@ -94,7 +94,7 @@ onMounted(async () => {
 .genre-item:hover {
     cursor: pointer;
     background-color: #000000;
-    box-shadow: 0 0 0.9rem #ffffff;
+    box-shadow: 0 0 1rem #ffffff;
 }
 
 
@@ -144,7 +144,7 @@ onMounted(async () => {
 }
 
 .movie-genres span {
-    background-color: #e21111;
+    background-color: #0d10e6;
     border-radius: 0.5rem;
     padding: 0.2rem 0.5rem;
     color: #ffffff;
@@ -154,17 +154,17 @@ onMounted(async () => {
 
 .movie-genres span:hover {
     cursor: pointer;
-    background-color: #000000;
+    background-color: #0011ff;
     box-shadow: 0 0 0.9rem #ffffff;
 }
 
 .active {
-  background-color: #3f3434;
+  background-color: #000000;
   font-weight: bolder;
 }
 
 .movie-genres span.active {
-  background-color: #3b3232;
+  background-color: #000000;
   font-weight: bolder;
 }
 
