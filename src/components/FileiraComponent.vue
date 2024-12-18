@@ -68,7 +68,7 @@ console.log(filmesPopulares.value)
     margin-top: 5%;
     width: 100%;
     align-items: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .row {
