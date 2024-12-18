@@ -1,15 +1,13 @@
 <script>
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules'
+import { Pagination } from 'swiper/modules'
 
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue'
 
 // Import Swiper styles
 import 'swiper/css'
-import 'swiper/css/navigation'
 import 'swiper/css/pagination'
-import 'swiper/css/scrollbar'
 
 // Import Swiper styles
 export default {
@@ -27,14 +25,15 @@ export default {
     return {
       onSwiper,
       onSlideChange,
-      modules: [Navigation, Pagination, Scrollbar, A11y],
+      modules: [ Pagination],
     }
   },
 }
+  
 </script>
 
 <template>
-    <swiper>
+    <swiper :loop="true">
     <swiper-slide><img src="https://image.tmdb.org/t/p/original//3V4kLQg0kSqPLctI5ziYWabAZYF.jpg" alt=""></swiper-slide>
     <swiper-slide><img src="https://image.tmdb.org/t/p/original//tElnmtQ6yz1PjN1kePNl8yMSb59.jpg" alt=""></swiper-slide>
     <swiper-slide><img src="https://image.tmdb.org/t/p/original//au3o84ub27qTZiMiEc9UYzN74V3.jpg" alt=""></swiper-slide>
@@ -68,7 +67,7 @@ export default {
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 700px;
   object-fit: cover;
 }
 </style>

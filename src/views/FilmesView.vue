@@ -120,7 +120,7 @@ onMounted(async () => {
     width: 100%;
     height: 20rem;
     border-radius: 0.5rem;
-    box-shadow: 0 0 0.9rem #000000;
+    box-shadow: 0 0 0.9rem #ffffff;
 }
 
 .movie-details {
@@ -159,7 +159,7 @@ onMounted(async () => {
 }
 
 .active {
-  background-color: #000000;
+  background-color: #635656;
   font-weight: bolder;
 }
 
